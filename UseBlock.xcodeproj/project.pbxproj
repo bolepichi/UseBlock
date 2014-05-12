@@ -21,6 +21,7 @@
 		188DFF07191C8AF500F4C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188DFEE9191C8AF400F4C17E /* UIKit.framework */; };
 		188DFF0F191C8AF500F4C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188DFF0D191C8AF500F4C17E /* InfoPlist.strings */; };
 		188DFF11191C8AF500F4C17E /* UseBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DFF10191C8AF500F4C17E /* UseBlockTests.m */; };
+		188DFF1C191C8B2B00F4C17E /* LHBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DFF1B191C8B2B00F4C17E /* LHBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		188DFF0C191C8AF500F4C17E /* UseBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UseBlockTests-Info.plist"; sourceTree = "<group>"; };
 		188DFF0E191C8AF500F4C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		188DFF10191C8AF500F4C17E /* UseBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseBlockTests.m; sourceTree = "<group>"; };
+		188DFF1A191C8B2B00F4C17E /* LHBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBlock.h; sourceTree = "<group>"; };
+		188DFF1B191C8B2B00F4C17E /* LHBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				188DFEF7191C8AF500F4C17E /* Main.storyboard */,
 				188DFEFA191C8AF500F4C17E /* LHViewController.h */,
 				188DFEFB191C8AF500F4C17E /* LHViewController.m */,
+				188DFF1A191C8B2B00F4C17E /* LHBlock.h */,
+				188DFF1B191C8B2B00F4C17E /* LHBlock.m */,
 				188DFEFD191C8AF500F4C17E /* Images.xcassets */,
 				188DFEEC191C8AF400F4C17E /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				188DFEF6191C8AF500F4C17E /* LHAppDelegate.m in Sources */,
 				188DFEF2191C8AF500F4C17E /* main.m in Sources */,
 				188DFEFC191C8AF500F4C17E /* LHViewController.m in Sources */,
+				188DFF1C191C8B2B00F4C17E /* LHBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
